@@ -25,7 +25,7 @@ const people = [
     { name: "Anneli", role: "junior" }
 ]
 
-const message = `Hay personas en el developer team. Sus nombres son:\n${people.map(person => `${person.name} - ${person.role}\n`)} 2 de ellos son senior con experiencia.`;
+const message = `Hay personas en el developer team. Sus nombres son:\n${people.map(person =>`${person.name} - ${person.role}\n`)} 2 de ellos son senior con experiencia.`;
 console.log('Ejercico _1  ->',message);
 
 
